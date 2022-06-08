@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+  </head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'images/style.css' %}">
+   <body style="background-image:url('{% static 'images/olms.jpg' %}'); background-repeat: no-repeat;background-size: 100%;">
+    <div class="container">
+        <h1 style="color:white;">Library Management System</h1>
+        <hr>
+        
+        <a class="btn btn-primary" href="/view_book" role="button">View all Books</a>
+        <a class="btn btn-primary" href="/add_book" role="button">Add a Book</a>
+        <a class="btn btn-primary" href="/update_book" role="button">Upate a Book</a>
+        <a class="btn btn-primary" href="/delete_book" role="button">Delete a Book</a>
+        <a class="btn btn-primary" href="/filter_book" role="button">Filter a Book</a>
+      </div>
+    
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
